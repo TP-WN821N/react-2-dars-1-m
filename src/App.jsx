@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 
 const App = () => {
-  const [users, setUsers] = useState([
+  const [users, setUser] = useState([
     {
       figure: '<Figure>',
       figcaption: '<Figcaption>',
